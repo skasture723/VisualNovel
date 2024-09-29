@@ -97,6 +97,7 @@ image w0_d3_buffet = "backgrounds/hotelBuffet.jpg"
 # Screens
 image mine_sweeper = "images/mine_sweeper.png"
 image black = "backgrounds/black-background.png"
+image ss="backgrounds/ss2.png"#added
 
 # Bytecoin
 default byte = 50
@@ -129,6 +130,7 @@ init python:
 
 label start:
     stop music fadeout 4
+    scene ss with fade#add/rem
     # PROLOUGUE
     "Welcome to Bytes of Love! A visual novel currently being developed by the University of Florida's Open Source Club!"
     "This is an educational dating simulator where you build relationships with other programming languages that are represented as anime-style characters."

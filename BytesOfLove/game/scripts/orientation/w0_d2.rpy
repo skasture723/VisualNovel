@@ -635,7 +635,7 @@ label w0_d2_AfterLunch:
 
             p "\"Yes! We make such a good team.\""
 
-    "Some time later..."
+    c"{i}Some time later...{/i}"#change
     bsl "\"And the team with the most points is...\""
     "....."
     bsl "\"Team 1!\""
