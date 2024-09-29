@@ -5,8 +5,8 @@ label w0_d1_VendingMachine:
 
     scene w0_d1_vending
     #scene test
-    "{i}*You walk downstairs to find a vending machine*{/i}"
-    "{i}*On your way to the vending machines you see someone*{/i}"
+    "{i}You walk downstairs to find a vending machine{/i}"
+    "{i}On your way to the vending machines you see someone{/i}"
     show rust_normal at right with fade
 
     r "\"Hey there! I’m Rust! Do you go to UB?\""
@@ -25,7 +25,7 @@ label w0_d1_VendingMachine:
 
             show rust_angry at right
 
-            r "{i}*hushed*{/i} \"Damn, I was just wondering.\""
+            r "{i}hushed{/i} \"Damn, I was just wondering.\""
 
             # scene test3
             show rust_angry at right
@@ -35,11 +35,11 @@ label w0_d1_VendingMachine:
             r "\"Jeez... you don’t have to be mean about it, man.\""
             mc "\"Whatever.\""
             hide rust_angry with dissolve
-            "{i}*Rust leaves*{/i}"
+            "{i}Rust leaves{/i}"
         "Be nice":
             $ r_rep = reputation(r_rep, 2)
             mc "\"Yeah I do, my name is [mc]. What’s your major?\""
-            r "{i}*Smiles*{/i} \"I’m computer engineering. What about you?\""
+            r "{i}Smiles{/i} \"I’m computer engineering. What about you?\""
             mc "\"Oh, I’m in computer science!\""
             mc "\"We both need to take Programming 1, right?\""
             mc "\"Are you going to be doing it this semester?\""
@@ -52,11 +52,11 @@ label w0_d1_VendingMachine:
             r "\"You should probably do the same.\""
             r "\"It was nice to meet you, see you in class!\""
             hide rust_normal with dissolve
-            "{i}*Rust leaves*{/i}"
+            "{i}Rust leaves{/i}"
 
-    "{i}*You stand at the vending machine, thinking about what you want*{/i}"
+    "{i}You stand at the vending machine, thinking about what you want{/i}"
     $ byte = bytecoin(byte, -5)
     mc "Hmm, they don’t have Doritos, I guess I’m only getting a Snickers tonight."
-    "{i}*You get a snickers bar and heads back up to your room*{/i}"
+    "{i}You get a snickers bar and heads back up to your room{/i}"
 
 jump w0_d1_End

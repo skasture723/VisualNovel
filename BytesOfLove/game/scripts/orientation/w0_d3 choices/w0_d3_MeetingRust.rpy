@@ -30,7 +30,7 @@ label w0_d3_MeetingRust:
                 $ r_rep = reputation(r_rep, 2)
                 mc "\"Yeah I do! My name is [mc], nice to meet you!\""
                 mc "\"What major are you?\""
-                r "{i}*Smiles*{/i} \"I’m in computer engineering, what about you?\""
+                r "{i}Smiles{/i} \"I’m in computer engineering, what about you?\""
                 mc "\"Oh cool, I’m in computer science!\""
                 mc "\"We both need to take Programming 1 as freshmen, right?\""
                 mc "\"Are you going to be doing it this semester?\""
